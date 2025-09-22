@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[rgb(17,12,42)]">
+
+
+    <div class=" bg-white  h-[780px] w-[600px] m-auto mt-7 rounded-3xl mb-10 ">
+
+        <h2 class="text-black font-serif  font-extrabold text-center pt-3">Registrar Usuario</h2>
+
+        <form>
+
+            <input class="w-[90%] rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="text" placeholder="Nombre Completo">
+
+        
+            <select name="tipo_doc" class="w-[90%] text-gray-400 font-bold font-serif  block focus:outline-none m-auto rounded-2xl border-2 p-2 border-[#d3d1d1]">
+                <option value="" disabled selected >Seleccione tipo de documento</option>
+                <option value="CC">C.C</option>
+                <option value="TI">T.I</option>
+            </select>
+
+            <input class="w-[90%] rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="number" placeholder="Número de Documento">
+
+            <input class="w-[90%] rounded-2xl text-gray-400   box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="date" placeholder="Fecha de Nacimiento">
+
+            <input class="w-[90%] rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="text" placeholder="Nombre de Usuario">
+
+            <input class="w-[90%]  rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="password" placeholder="Contraseña">
+
+            <input class="w-[90%]  rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="email" placeholder="Correo Electrónico">
+
+            <input class="w-[90%]  rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="number" placeholder="Número de Teléfono">
+
+            <div class="flex m-auto w-[90%]">
+                <input class="w-[50%]  rounded-2xl  box-border block p-2 m-auto mt-5 border-gray-300 border-2 font-bold focus:border-gray-300 focus:outline-none  font-serif focus:ring-0 mb-3" type="number" placeholder="Código del Rol">
+
+                <select name="tipo_doc" class="w-[50%] h-[100%] text-gray-400 mt-5 block font-bold focus:ring-0 font-serif focus:outline-none m-auto rounded-2xl border-2 p-2 border-[#d3d1d1] ml-6">
+                    <option value="" disabled selected >Sexo</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                </select>
+            </div>
+
+            <button type="button" class="bg-[#2D73E5] w-[70%] text-white font-bold text-center m-auto block mt-12  rounded-2xl p-2" onclick="window.location.href='../INICIAR_SECIÓN/index.html'">Registrarse</button>
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
