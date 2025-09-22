@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla Principal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gradient-to-r from-[#44066C] to-[#300B4D]">
+
+
+    <div class="absolute left-1/2 transform -translate-x-1/2 mt-52 
+            bg-[url('IMAGENES/buho.png')] bg-cover bg-center opacity-10 
+            w-96 h-96">
+    </div>  
+
+    <div class="flex justify-between items-center border-b-2 border-gray-100 rounded-sm m-2 p-2">
+
+        <div class="flex items-center gap-3">
+            <svg width="30" height="28">
+                <use xlink:href="LOGOS/icono.svg#icono"></use>
+            </svg>
+
+            <h3 class="text-white font-bold font-serif">Inicio</h3>
+            
+        </div>
+
+        <div class="flex gap-2">
+
+            <h3 class="text-white font-bold font-serif pt-3 ">Administrador</h3>
+
+            <img src="IMAGENES/buho.png"alt="Logo" title="Logo" class="w-10 h-12 ml-4">
+            
+            
+
+
+            
+        </div>
+
+
+    </div>
+
+    <h2 class="text-[#3064F4] font-bold text-xl font-serif text-center pt-3">Gestión de Recursos Humanos</h2>
+
+    <h3 class="text-white font-bold  font-serif text-center pt-3">Elige un módulo para continuar</h3>
+
+    <div class="w-[100%] flex mt-6">
+
+        <a href="../EMPLEADOS/index.html" class="block m-auto text-center w-[45%] h-52 bg-[#0B0614] rounded-2xl p-6 shadow-lg hover:scale-95 transition-transform duration-200 cursor-pointer">
+            <div class="text-blue-400 text-6xl mb-4">👥</div>
+            <h2 class="text-white font-bold text-2xl font-serif">Empleados</h2>
+            <p class="text-gray-300 font-serif">Gestión del personal registrado</p>
+        </a>
+
+
+        <a href="../EMPLEADOS/index.html" class="block m-auto text-center w-[45%] h-52 bg-[#0B0614] rounded-2xl p-6 shadow-lg hover:scale-95 transition-transform duration-200 cursor-pointer">
+            <div class="text-blue-400 text-6xl mb-4">👥</div>
+            <h2 class="text-white font-bold text-2xl font-serif">Contratación</h2>
+            <p class="text-gray-300 font-serif">Gestión de contratos laborales</p>
+        </a>
+
+
+
+    </div>
+
+    
+
+    
+</body>
+</html>
