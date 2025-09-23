@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla Principal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#040E0F] m-0">
+
+    
+
+    <div class=" bg-[#041D4B]  w-full h-12 m-0">
+
+        <div class="w-full h-12 m-0 pt-2 pl-2 flex justify-between items-center">
+
+            <svg class="box-border" width="30" height="28">
+                <use xlink:href="LOGOS/icono.svg#icono"></use>
+            </svg>
+
+            <p class="flex text-white font-bold mb-1.3">Módulo de incapacidades </p>
+
+            <div class="flex items-center">
+                <p class="text-white font-bold mr-3">Administrador</p>
+                <img class="w-15 h-10 "src="IMAGENES/buho.png">
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="bg-white w-[95%] h-[50%] m-auto mt-6 rounded-3xl">
+
+        <h2 class="text-[#2C3E50] font-extrabold text-center p-3 " >Registrar Nueva Comunicación Diciplinaria</h2>
+        <form>
+            <div class="ml-2 flex w-[100%]">
+
+                <div class="flex-col mb-4 mr-16 w-[100%]">
+
+                    <p class="text-[#2C3E50] font-bold">Número de documento*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="number">
+
+                </div>
+
+               <div class="flex-col mb-4 w-[100%] mr-4">
+                    <p class="text-[#2C3E50] font-bold">Código de la Notificación*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif"  type="text">
+               </div>
+
+            </div>
+
+            <div class="ml-2 flex w-[100%]">
+
+                <div class="flex-col mb-4 mr-16 w-[100%]">
+
+                    <p class="text-[#2C3E50] font-bold">Tipo de incapacidad*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="number">
+
+                </div>
+
+               <div class="flex-col mb-4 w-[100%] mr-4">
+                    <p class="text-[#2C3E50] font-bold">Fecha de Inicio*</p>
+
+                    <input class="w-[100%] rounded-2xl pl-3 pr-3 border-[#969191] border-2 focus:outline-none font-serif" type="date">
+               </div>
+
+            </div>
+
+            <div class="ml-2 flex w-[100%]">
+
+                <div class="flex-col mb-4 mr-16 w-[100%]">
+
+                    <p class="text-[#2C3E50] font-bold">Fecha de Fin*</p>
+
+                    <input class="w-[100%]  pr-3 rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="date">
+
+                </div>
+
+               <div class="flex-col mb-4 w-[100%] mr-4">
+                    <p class="text-[#2C3E50] font-bold">motivo*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif"  type="text">
+               </div>
+
+            </div>
+
+            <div class="ml-2 flex w-[100%]">
+
+                <div class="flex-col mb-4 mr-16 w-[100%]">
+
+                    <p class="text-[#2C3E50] font-bold">NIT Empresa*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="text">
+
+                </div>
+
+               <div class="flex-col mb-4 w-[100%] mr-4">
+                    <p class="text-[#2C3E50] font-bold">Fecha de Radicacion*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 pr-3 font-serif"  type="date">
+               </div>
+
+            </div>
+
+            <div class="ml-2 flex w-[100%]">
+
+                <div class="flex-col mb-4 mr-16 w-[100%]">
+
+                    <p class="text-[#2C3E50] font-bold">Responsable*</p>
+
+                    <input class="w-[100%] rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="text">
+
+                </div>
+
+               <div class="flex-col  w-[100%] mr-4">
+                    <p class="text-[#2C3E50] font-bold">Valor del Porcentaje de Pago*</p>
+
+                    <input class="w-[100%] h-24 rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="text">
+               </div>
+
+               
+            </div>
+
+<div class="flex-col  w-[100%] mr-4">
+                    <p class="text-[#2C3E50] font-bold">descripcion</p>
+
+                    <input class="w-[100%] h-24 rounded-2xl border-[#969191] border-2 focus:outline-none pl-2 font-serif" type="text">
+               </div>
+
+
+            <div class="box-border flex  mt-11 ml-6 pb-14 ">
+                <div>
+
+                    <button class="bg-[#8A30C5] text-white font-serif font-bold rounded-lg p-2 pl-3 flex  gap-2" type="submit">
+                        
+                        <img class=" w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/747/747439.png">
+
+                        <p>Guardar Comunicación</p>
+                    </button>
+
+                </div>
+
+                <div class="box-border flex ml-6 pl-6 pb-14" >
+
+                    <button class="bg-[#95A5A6] text-white font-serif font-bold rounded-lg p-2 flex items-center gap-2" type="button" onclick="this.form.reset()">
+                        
+                        <img class="w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/81/81948.png">
+                        <p>Limpiar Formulario</p>
+                    </button>
+
+                </div>     
+            </div>
+
+           
+                
+           
+
+        </form>
+    </div>
+
+    <div class="bg-white w-[95%] h-96 m-auto mt-6 rounded-3xl">
+ 
+        <div class="m-4 p-4 pt-11 flex items-center justify-between ml-10">
+
+            <p class="text-[#1E2A47] font-serif font-bold text-xl  box-border block">incapacidades Registradas</p>
+
+            <input class=" rounded-2xl border-[#969191] ml-[45%] flex-initial border-2 focus:outline-none pl-2 font-serif" type="text" placeholder="Buscar Comunicado...">   
+
+            <button class="bg-blue-400 ml-5 w-15 h-9 text-whit font-serif font-bold rounded-lg p-2 flex
+            "type="button" onclick="this.form.reset()">
+                        
+                <img class="w-6 h-6" src="https://cdn-icons-png.flaticon.com/512/667/667332.png ">
+
+            </button>
+
+
+
+        </div>
+
+        <div class="border-2 rounded-none  border-[#0C0920] w-[90%] h-44 justify-between items-center m-auto pb-12 ">
+
+            <div class="bg-[#041D4B] text-white font-serif text-xs font-bold p-4 flex ">
+
+                <p class="pr-40">Código de la Comunicación</p>
+
+                <p class="pr-40">Tipo de Comunicación</p>
+
+                <p class="pr-40">Número de Documento</p>
+
+                <p>Acciones</p>
+            </div>
+            
+        </div>
+
+    </div>
+    
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
